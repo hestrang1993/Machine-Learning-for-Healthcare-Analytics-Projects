@@ -85,7 +85,6 @@ dependencies:
   - nbformat=5.1.3=pyhd8ed1ab_0
   - nest-asyncio=1.5.1=pyhd8ed1ab_0
   - notebook=6.4.0=pyha770c72_0
-  - numpy=1.21.0=py39h6635163_0
   - olefile=0.46=pyh9f0ad1d_1
   - openjpeg=2.4.0=hb211442_1
   - openssl=1.1.1k=h8ffe710_0
@@ -128,7 +127,6 @@ dependencies:
   - scipy=1.7.0=py39hc0c34ad_0
   - send2trash=1.7.1=pyhd8ed1ab_0
   - setuptools=49.6.0=py39hcbf5309_3
-  - six=1.16.0=pyh6c4a22f_0
   - smmap=3.0.5=pyh44b312d_0
   - sniffio=1.2.0=py39hcbf5309_1
   - sqlite=3.36.0=h8ffe710_0
@@ -160,7 +158,20 @@ dependencies:
   - zlib=1.2.11=h62dcd97_1010
   - zstd=1.5.0=h6255e5f_0
   - pip:
+      - cachetools==4.2.2
+      - google-auth==1.32.1
       - h5py==3.3.0
       - keras==2.4.3
+      - numpy==1.19.5
+      - oauthlib==3.1.1
+      - protobuf==3.17.3
+      - pyasn1==0.4.8
+      - pyasn1-modules==0.2.8
       - pyyaml==5.4.1
+      - requests-oauthlib==1.3.0
+      - rsa==4.7.2
+      - six==1.15.0
+      - tensorboard-data-server==0.6.1
+      - tensorboard-plugin-wit==1.8.0
+      - werkzeug==2.0.1
 prefix: C:\Users\harri\anaconda3\envs\healthcare
